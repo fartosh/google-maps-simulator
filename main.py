@@ -10,5 +10,3 @@ with open("wrzeszcz.png", "wb") as plik:
 
 req = requests.get("https://maps.googleapis.com/maps/api/directions/json?origin=Raciborskiego+50+Gdansk&destination=Wilenska+3+Gdansk&key="+key)
 print(req.json())
-
-
